@@ -1,0 +1,8 @@
+curl \
+   -d "client_id=3scale-admin" \
+   -d "client_secret=4cd0fc94-3630-4bcb-ad0c-87a4e3475a5a" \
+   -d "userId=apiuser" \
+   -d "username=apiuser" \
+   -d "password=apipassword" \
+   -d "grant_type=password" \
+   "http://localhost:8080/auth/realms/3scale-sso/protocol/openid-connect/token"
